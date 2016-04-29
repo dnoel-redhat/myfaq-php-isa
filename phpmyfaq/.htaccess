@@ -19,6 +19,9 @@ Options +FollowSymlinks -MultiViews -Indexes
 # if you want to use mod_rewrite, set this 'On'
 RewriteEngine On
 
+## This line here Niraj! :)
+#RedirectMatch 301 ^(.*)$ https://faq.isa.emea.redhat.com
+
 # the path to your phpMyFAQ installation
 RewriteBase /phpmyfaq/
 #RewriteBase /
