@@ -1,5 +1,4 @@
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^(www\.)?faq\.isa\.emea\.redhat\.com$ [NC]
 RewriteRule !^phpmyfaq/ /phpmyfaq%{REQUEST_URI} [L,NC]
 
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
