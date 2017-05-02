@@ -1,5 +1,5 @@
 <?php
-$DB['server'] = 'mysql://mysql:3306/';
+$DB['server'] = 'local host';
 $DB['user'] = 'devfaquser';
 $DB['password'] = 'student';
 $DB['db'] = 'devfaqdb';
