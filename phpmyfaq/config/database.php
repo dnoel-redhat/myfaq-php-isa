@@ -1,7 +1,7 @@
 <?php
-$DB['server'] = 'CHANGEME_IP_ADDRESS';
-$DB['user'] = 'CHANGEME';
-$DB['password'] = 'CHANGEME';
-$DB['db'] = 'faq';
+$DB['server'] = 'localhost';
+$DB['user'] = 'devfaquser';
+$DB['password'] = 'student';
+$DB['db'] = 'devfaqdb';
 $DB['prefix'] = '';
 $DB['type'] = 'mysqli';
